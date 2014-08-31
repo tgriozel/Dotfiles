@@ -1,0 +1,14 @@
+filetype plugin on
+set nocompatible
+set bs=2
+set mouse=a
+syntax on
+set ruler
+set t_Co=256
+set number
+set wildmenu
+set wildmode=full
+colorscheme molokai
+nnoremap <silent> <C-p> :bprevious<CR>
+nnoremap <silent> <C-n> :bnext<CR>
+cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
