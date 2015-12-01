@@ -3,8 +3,6 @@ base-devel git vim cscope i3 i3status dmenu dropbox feh htop blueman
 
 # Configuration files :
 .i3/*
-~/.bashrc
-/root/.bashrc
 /etc/vimrc
 /usr/share/vim/vim74/plugin/cscope_maps.vim
 /usr/share/vim/vimfiles/colors/molokai.vim # visual color is edited
@@ -13,3 +11,4 @@ base-devel git vim cscope i3 i3status dmenu dropbox feh htop blueman
 Session stuff
 Change TIMEOUT in /etc/grub.d/00_header
 systemctl start bluetooth
+feh --bg-fill $wallpaper
