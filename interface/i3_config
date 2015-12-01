@@ -150,7 +150,9 @@ bar {
 
 # custom shortcuts
 bindsym $mod+w exec chromium-browser
+bindsym $mod+Shift+w exec chromium-browser --incognito
 bindsym $mod+x exec xfce4-session-logout
+bindsym $mod+t exec thunar
 
 # make sure xfce notifications display properly
 for_window [class="Xfce4-notifyd"] floating enable;border none; focus mode_toggle
